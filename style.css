@@ -18,24 +18,41 @@ a {
   width: 1140px;
 }
 
+.navbar {
+  background-color: #00353B;
+  background-size: 100%;
+}
 .navbar .container .navbar_box {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 600px;
+  width: 700px;
+  margin-left: 300px;
 }
 .navbar .container .navbar_box .navbar_list .navbar_item {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 300px;
+}
+.navbar .container .navbar_box .navbar_list .navbar_item p {
+  color: white;
 }
 .navbar .container .navbar_box .navbar_list2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 300px;
 }
 .navbar .container .navbar_box .navbar_list2 .navbar_item2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.navbar .container .navbar_box .navbar_list2 .navbar_item2 p {
+  color: white;
+  margin-left: 10px;
+}
+.navbar .container .navbar_box .navbar_list2 .navbar_item2 button {
+  padding: 10px 30px;
 }/*# sourceMappingURL=style.css.map */

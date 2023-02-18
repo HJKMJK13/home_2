@@ -16,27 +16,43 @@ a{
 }
 
 .navbar{
+    background-color:  #00353B;
+    background-size: 100%;
     .container{
         .navbar_box{
             display: flex;
             align-items: center;
             justify-content: space-between;
-            width: 600px;
+            width: 700px;
+            margin-left:300px;
            .navbar_list{
             .navbar_item{
             display: flex;
             align-items: center;
             justify-content: space-between;
+            width: 300px;
+            p{
+                color: white;
+            }
             }
            }
            .navbar_list2{
             display: flex;
             align-items: center;
             justify-content: space-between;
+            width: 300px;
             .navbar_item2{
               display: flex;
               align-items: center;
               justify-content: space-between;
+              
+              p{
+                color: white;
+                margin-left: 10px;
+              }
+              button{
+                padding: 10px 30px;
+              }
             }
            }
         }
