@@ -59,11 +59,46 @@ a{
     }
 }
 .find{
+    background-color: #00353B;
+    background-size: 100%;
     .container{
         .find_box{
             display: flex;
             align-items: center;
             justify-content: space-between;
+            .find_text{
+                width:600px;
+                h2{
+                    font-size: 56px;
+                    color: white;
+                }
+                p{
+                    color:white;
+                    width: 450px;
+                }
+                .find_list{
+                    display:flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 250px;
+                    .find_item{
+                        button{
+                            padding: 10px 20px;
+                            background-color:  #22A45A;
+                            border-radius: 5px;
+                            border: #22A45A;
+                            color: white;
+                        }
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .find_img{
+                width: 500px;
+                height: 540px;
+            }
         }
     }
 }

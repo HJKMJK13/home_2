@@ -57,8 +57,43 @@ a {
   padding: 10px 30px;
 }
 
+.find {
+  background-color: #00353B;
+  background-size: 100%;
+}
 .find .container .find_box {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.find .container .find_box .find_text {
+  width: 600px;
+}
+.find .container .find_box .find_text h2 {
+  font-size: 56px;
+  color: white;
+}
+.find .container .find_box .find_text p {
+  color: white;
+  width: 450px;
+}
+.find .container .find_box .find_text .find_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+.find .container .find_box .find_text .find_list .find_item button {
+  padding: 10px 20px;
+  background-color: #22A45A;
+  border-radius: 5px;
+  border: #22A45A;
+  color: white;
+}
+.find .container .find_box .find_text .find_list .find_item a {
+  color: white;
+}
+.find .container .find_box .find_img {
+  width: 500px;
+  height: 540px;
 }/*# sourceMappingURL=style.css.map */
