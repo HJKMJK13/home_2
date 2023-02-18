@@ -55,4 +55,10 @@ a {
 }
 .navbar .container .navbar_box .navbar_list2 .navbar_item2 button {
   padding: 10px 30px;
+}
+
+.find .container .find_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
