@@ -1,0 +1,19 @@
+*::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}/*# sourceMappingURL=style.css.map */
