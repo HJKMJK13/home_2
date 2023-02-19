@@ -180,3 +180,28 @@ a{
         }
     }
 }
+
+.most{
+    .container{
+        .most_text{
+            width: 600px;
+            margin-right: auto;
+            margin-left: auto;
+            h2{
+                text-align: center;
+                font-size: 48px;
+            }
+            p{
+                text-align: center;
+            }
+        }
+        .most_box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .most_small{
+                width: 33%;
+            }
+        }
+    }
+}
