@@ -170,6 +170,7 @@ a {
   background-color: #1F2937;
   border: #1F2937;
   color: white;
+  border-radius: 10px;
 }
 .from .container .from_box .from_text .from_list a {
   color: #1F2937;
