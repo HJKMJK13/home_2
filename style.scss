@@ -142,11 +142,40 @@ a{
     }
 }
 .from{
+    margin-top: 300px;
     .container{
         .from_box{
             display: flex;
             align-items: center;
             justify-content: space-between;
+            .from_img{
+               width: 500px;
+               height: 500px;
+            }
+            .from_text{
+                width: 500px;
+                h2{
+                    font-size: 48px;
+                }
+                p{
+                    font-size:18px;
+                }
+                .from_list{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 230px;
+                    button{
+                        padding: 10px 20px;
+                        background-color:#1F2937;
+                        border: #1F2937;
+                        color: white;
+                    }
+                    a{
+                        color: #1F2937;
+                    }
+                }
+            }
         }
     }
 }

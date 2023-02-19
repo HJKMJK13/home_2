@@ -136,4 +136,41 @@ a {
   padding: 10px 20px;
   background-color: #1F2937;
   border: #1F2937;
+}
+
+.from {
+  margin-top: 300px;
+}
+.from .container .from_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.from .container .from_box .from_img {
+  width: 500px;
+  height: 500px;
+}
+.from .container .from_box .from_text {
+  width: 500px;
+}
+.from .container .from_box .from_text h2 {
+  font-size: 48px;
+}
+.from .container .from_box .from_text p {
+  font-size: 18px;
+}
+.from .container .from_box .from_text .from_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 230px;
+}
+.from .container .from_box .from_text .from_list button {
+  padding: 10px 20px;
+  background-color: #1F2937;
+  border: #1F2937;
+  color: white;
+}
+.from .container .from_box .from_text .from_list a {
+  color: #1F2937;
 }/*# sourceMappingURL=style.css.map */
