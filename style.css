@@ -60,6 +60,10 @@ a {
 .find {
   background-color: #00353B;
   background-size: 100%;
+  padding-bottom: 200px;
+}
+.find .container {
+  position: relative;
 }
 .find .container .find_box {
   display: flex;
@@ -96,4 +100,40 @@ a {
 .find .container .find_box .find_img {
   width: 500px;
   height: 540px;
+}
+.find .container .find_m {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  padding-bottom: 60px;
+}
+.find .container .find_box2 {
+  width: 1000px;
+  padding-bottom: 30px;
+  background-color: #FCD8CA;
+  position: absolute;
+  top: 100%;
+  border-radius: 10px;
+  left: 5%;
+}
+.find .container .find_box2 .btn_1 {
+  margin-left: 450px;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+.find .container .find_box2 h2 {
+  text-align: center;
+  font-size: 48px;
+}
+.find .container .find_box2 p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: center;
+}
+.find .container .find_box2 .btn_2 {
+  margin-left: 450px;
+  padding: 10px 20px;
+  background-color: #1F2937;
+  border: #1F2937;
 }/*# sourceMappingURL=style.css.map */
