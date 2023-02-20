@@ -27,7 +27,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 700px;
-  margin-left: 300px;
+  margin-left: 440px;
 }
 .navbar .container .navbar_box .navbar_list .navbar_item {
   display: flex;
@@ -296,4 +296,35 @@ a {
 }
 .grow .container .grow_box .grow_list .grow_item p {
   color: #1F2937;
+}
+
+.say .container .say_box .say_small {
+  background-color: #FCD8CA;
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.say .container .say_box .say_small h2 {
+  text-align: center;
+  font-size: 48px;
+  color: #1F2937;
+}
+.say .container .say_box .say_small p {
+  text-align: center;
+  color: #1F2937;
+}
+.say .container .say_box .say_small .say_big {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.say .container .say_box .say_small .say_big .say_big_small {
+  background-color: white;
+  width: 30%;
+}
+.say .container .say_box .say_small .say_big .say_big_small .say_list2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
 }/*# sourceMappingURL=style.css.map */
