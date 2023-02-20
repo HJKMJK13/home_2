@@ -359,4 +359,9 @@ a {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
+}
+.say .container .say_box .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
