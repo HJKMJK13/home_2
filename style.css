@@ -298,11 +298,21 @@ a {
   color: #1F2937;
 }
 
+.say {
+  background-color: #00353B;
+  background-size: 100%;
+  margin-top: 500px;
+}
+.say .container .say_box {
+  position: relative;
+}
 .say .container .say_box .say_small {
   background-color: #FCD8CA;
   width: 1000px;
   margin: 0 auto;
   padding-bottom: 50px;
+  position: absolute;
+  top: -50%;
 }
 .say .container .say_box .say_small h2 {
   text-align: center;
@@ -327,4 +337,26 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 200px;
+}
+.say .container .say_box .say_btn {
+  padding: 10px 20px;
+  margin-top: 100px;
+  margin-left: 70px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 300px;
+}
+.say .container .say_box .say_big_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.say .container .say_box .say_big_list .say_big_item h2 {
+  color: white;
+  font-size: 48px;
+}
+.say .container .say_box .say_big_list .say_big_item button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
