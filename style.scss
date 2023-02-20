@@ -200,7 +200,36 @@ a{
             align-items: center;
             justify-content: space-between;
             .most_small{
-                width: 33%;
+                width: 31%;
+                background-color:#00353B;
+                button{
+                    padding: 5px 15px;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    border-radius: 5px;
+                    border: white;
+                }
+                h3{
+                    color: white;
+                    margin-left: 20px;
+                }
+                h4{
+                    color: white;
+                    margin-left: 20px;
+                } 
+                
+                .most_list{
+                   display: flex;
+                   align-items: center;
+                   justify-content: space-around;
+                  
+                   .most_item{
+                    img{
+                        margin-left: 103px;
+                         padding-bottom: -30px;
+                    }
+                   }
+                }
             }
         }
     }

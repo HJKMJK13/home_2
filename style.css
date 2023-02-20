@@ -194,5 +194,30 @@ a {
   justify-content: space-between;
 }
 .most .container .most_box .most_small {
-  width: 33%;
+  width: 31%;
+  background-color: #00353B;
+}
+.most .container .most_box .most_small button {
+  padding: 5px 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: white;
+}
+.most .container .most_box .most_small h3 {
+  color: white;
+  margin-left: 20px;
+}
+.most .container .most_box .most_small h4 {
+  color: white;
+  margin-left: 20px;
+}
+.most .container .most_box .most_small .most_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.most .container .most_box .most_small .most_list .most_item img {
+  margin-left: 103px;
+  padding-bottom: -30px;
 }/*# sourceMappingURL=style.css.map */
