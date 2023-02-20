@@ -220,4 +220,33 @@ a {
 .most .container .most_box .most_small .most_list .most_item img {
   margin-left: 103px;
   padding-bottom: -30px;
+}
+
+.more {
+  background-color: #FCD8CA;
+  background-size: 100%;
+  margin-top: 150px;
+}
+.more .container .more_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.more .container .more_box .more_text button {
+  padding: 10px 20px;
+  border: none;
+}
+.more .container .more_box .more_text h2 {
+  font-size: 48px;
+  width: 420px;
+}
+.more .container .more_box .more_text p {
+  width: 400px;
+}
+.more .container .more_box .more_text a {
+  border: 1px solid #1F2937;
+  padding: 10px 20px;
+  color: white;
+  background-color: #1F2937;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
