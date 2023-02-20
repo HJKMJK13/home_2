@@ -264,4 +264,36 @@ a {
 }
 .our .container .our_box .our_small h3 {
   color: #1F2937;
+}
+
+.grow {
+  margin-top: 50px;
+}
+.grow .container .grow_text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 600px;
+  padding-bottom: 50px;
+}
+.grow .container .grow_text h2 {
+  font-size: 48px;
+  color: #1F2937;
+}
+.grow .container .grow_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grow .container .grow_box .grow_list .grow_item {
+  padding-bottom: 50px;
+  width: 250px;
+  text-align: center;
+}
+.grow .container .grow_box .grow_list .grow_item h3 {
+  font-size: 24px;
+  color: #1F2937;
+}
+.grow .container .grow_box .grow_list .grow_item p {
+  color: #1F2937;
 }/*# sourceMappingURL=style.css.map */
