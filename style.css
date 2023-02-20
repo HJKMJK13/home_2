@@ -249,4 +249,19 @@ a {
   color: white;
   background-color: #1F2937;
   border-radius: 5px;
+}
+
+.our {
+  margin-top: 50px;
+}
+.our .container .our_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.our .container .our_box .our_small {
+  width: 320px;
+}
+.our .container .our_box .our_small h3 {
+  color: #1F2937;
 }/*# sourceMappingURL=style.css.map */

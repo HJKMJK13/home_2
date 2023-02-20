@@ -266,3 +266,20 @@ a{
         }
     }
 }
+
+.our{
+    margin-top: 50px;
+    .container{
+        .our_box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .our_small{
+                width:320px;
+                h3{
+                    color: #1F2937;
+                }
+            }
+        }
+    }
+}
